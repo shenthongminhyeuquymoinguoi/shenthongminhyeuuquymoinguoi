@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+header
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	height: 0px;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+	background: #fbc8e7;
+}
+header.sticky{
+   background: #fff;
+   padding: 20px 100px;
+   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+
+}
+header .logo
+{
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+header.sticky .logo{
+    color: #111;
+}
+
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li 
+{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+header.sticky ul li a{
+    color: #111;
+}
+.chuadatten{
+	width: 2000px;
+	height: 4800px;
+	background-image: url("nen.jpg");
+}
+.otrng{
+	height: 218px;
+	
+}
+.box{
+	height: 400px;
+	background-image: url("22.png");
+}
+.box2{
+	height: 110px;
+	width: 1805px;
+	margin: auto;
+	
+}
+.box3{
+	height: 300px;
+	background-image: url("1.png");
+}
+.box4{
+	height: 500px;
+	background-image: url("hehe.png");
+}
+.djdjdj{
+	height: 2px;
+	width: 1805px;
+	margin: auto;
+	background: #FBC8E7;
+	
+}
+.qe{
+	height: 70px;
+}
+.qwrew{
+	height: 2100px;
+	background-image: url("hrhr.png");
+}
+.motsosanpham{
+	height: 400px;
+	background: url("13.png");
+}
+.lienhevoitoi{
+	height: 600px;
+	background: #000000;
+	background-image: url("thua.png");
+}
+
+
+
+
+
